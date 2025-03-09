@@ -78,3 +78,7 @@ console.log(n); //now 25 again
 // === is equal value AND equal type
 // != NOT equal to
 // !== not equal value or not equal type
+
+// " " and ' ' serve the same function
+// `` are "Template Literals" and are used similar to an f-string in python
+// e.g., `Hello, ${name}`
