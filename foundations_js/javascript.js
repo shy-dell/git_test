@@ -15,6 +15,8 @@
 // }
 // lastLetter("thsi is a longer sentence ending in z")
 
+// add a comment to see if SSH key works
+
 function fizzBuzz(limit) {
     for (let x = 1; x <= limit; x++) {
         if (x % 3 == 0 && x % 5 == 0){
