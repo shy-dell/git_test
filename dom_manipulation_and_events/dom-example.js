@@ -13,4 +13,7 @@ const text = document.createTextNode(
 const linkPara = document.querySelector("p");
 linkPara.append(text);
 
-// Moving Elements
+// Moving Elements & Removing Elements
+sec.appendChild(linkPara);
+// sec.removeChild(linkPara); OR to remove a node only by the reference to itself:
+linkPara.remove()
