@@ -28,3 +28,7 @@ paraTwo.textContent = "ME TOO!";
 
 subcontent.append(headerOne, paraTwo);
 container.append(content, para, headerThree, subcontent);
+
+btn.addEventListener("click", function (e) {
+    e.target.style.background = "blue";
+  });  
