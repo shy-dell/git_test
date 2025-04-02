@@ -16,4 +16,15 @@ linkPara.append(text);
 // Moving Elements & Removing Elements
 sec.appendChild(linkPara);
 // sec.removeChild(linkPara); OR to remove a node only by the reference to itself:
-linkPara.remove()
+// linkPara.remove()
+
+// Manipulating Styles --------
+// inline
+// para.style.color = "white";
+// para.style.backgroundColor = "black";
+// para.style.padding = "10px";
+// para.style.width = "250px";
+// para.style.textAlign = "center";
+
+// Reference css style with setAttribute()
+para.setAttribute("class", "highlight");
